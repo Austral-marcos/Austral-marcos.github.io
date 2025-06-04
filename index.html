@@ -4,3 +4,236 @@
   <h1>Hello World!</h1>
 </body>
 </html>
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>¡Genera Ingresos como Ingeniero Informático!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', Arial, sans-serif;
+            background: linear-gradient(135deg, #0f2027, #2c5364, #f7971e, #ffd200);
+            color: #fff;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+        header {
+            background: rgba(0,0,0,0.8);
+            padding: 2rem 0 1rem 0;
+            text-align: center;
+            box-shadow: 0 4px 30px rgba(0,0,0,0.3);
+        }
+        header h1 {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 3rem;
+            color: #ffd200;
+            margin: 0;
+            letter-spacing: 2px;
+            text-shadow: 0 0 10px #f7971e, 0 0 20px #ffd200;
+            animation: glow 2s infinite alternate;
+        }
+        @keyframes glow {
+            from { text-shadow: 0 0 10px #f7971e, 0 0 20px #ffd200; }
+            to { text-shadow: 0 0 30px #ffd200, 0 0 40px #f7971e; }
+        }
+        header p {
+            font-size: 1.3rem;
+            color: #fff;
+            margin-top: 1rem;
+            margin-bottom: 0;
+            font-weight: 700;
+        }
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            background: rgba(255,255,255,0.1);
+            border-radius: 20px;
+            box-shadow: 0 8px 40px rgba(0,0,0,0.3);
+            padding: 2rem 2.5rem;
+            backdrop-filter: blur(2px);
+        }
+        h2 {
+            color: #ffd200;
+            font-family: 'Orbitron', sans-serif;
+            margin-top: 2rem;
+            font-size: 2rem;
+            text-shadow: 0 0 8px #f7971e;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            background: rgba(0,0,0,0.3);
+            margin: 1rem 0;
+            padding: 1.2rem 1.5rem;
+            border-radius: 12px;
+            font-size: 1.2rem;
+            box-shadow: 0 2px 10px rgba(255,215,0,0.1);
+            transition: transform 0.2s;
+        }
+        li:hover {
+            transform: scale(1.03) rotate(-1deg);
+            background: rgba(255,215,0,0.2);
+            color: #222;
+        }
+        .highlight {
+            color: #f7971e;
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        .cta {
+            display: block;
+            margin: 2.5rem auto 0 auto;
+            padding: 1.2rem 2.5rem;
+            background: linear-gradient(90deg, #ffd200, #f7971e);
+            color: #222;
+            font-size: 1.5rem;
+            font-family: 'Orbitron', sans-serif;
+            border: none;
+            border-radius: 30px;
+            cursor: pointer;
+            box-shadow: 0 4px 20px #ffd20080;
+            transition: background 0.3s, color 0.3s, transform 0.2s;
+            text-shadow: 0 2px 8px #fff8;
+        }
+        .cta:hover {
+            background: linear-gradient(90deg, #f7971e, #ffd200);
+            color: #fff;
+            transform: scale(1.05);
+        }
+        .fireworks {
+            position: fixed;
+            top: 0; left: 0; width: 100vw; height: 100vh;
+            pointer-events: none;
+            z-index: 999;
+        }
+        @media (max-width: 600px) {
+            .container { padding: 1rem; }
+            header h1 { font-size: 2rem; }
+            h2 { font-size: 1.3rem; }
+            .cta { font-size: 1.1rem; }
+        }
+    </style>
+</head>
+<body>
+    <canvas class="fireworks"></canvas>
+    <header>
+        <h1>¡Haz Orgullosos a tus Padres!<br>Genera Ingresos como Ingeniero Informático</h1>
+        <p>Descubre las formas más emocionantes y rentables de triunfar en el mundo digital 🚀</p>
+    </header>
+    <div class="container">
+        <h2>💡 ¿Cómo puedes generar ingresos?</h2>
+        <ul>
+            <li><span class="highlight">Desarrollo Freelance:</span> Ofrece tus servicios en plataformas como Upwork, Freelancer o Fiverr. ¡El mundo necesita tus habilidades!</li>
+            <li><span class="highlight">Crea tu Startup:</span> ¿Tienes una idea innovadora? Desarróllala y busca inversores. ¡El próximo unicornio puede ser tuyo!</li>
+            <li><span class="highlight">Desarrolla Apps o Juegos:</span> Publica en Google Play o App Store y gana con descargas, anuncios o compras dentro de la app.</li>
+            <li><span class="highlight">Cursos y Tutoriales:</span> Comparte tu conocimiento en YouTube, Udemy o tu propio blog. ¡Educa y gana!</li>
+            <li><span class="highlight">Automatiza y Vende Bots:</span> Crea soluciones que ahorren tiempo a empresas y véndelas como SaaS.</li>
+            <li><span class="highlight">Consultoría Tecnológica:</span> Ayuda a empresas a digitalizarse y cobra por tu experiencia.</li>
+            <li><span class="highlight">Contribuye a Open Source:</span> ¡Algunas empresas pagan por tus aportes y te abren puertas laborales!</li>
+            <li><span class="highlight">Inversiones en Criptomonedas y Blockchain:</span> Usa tus conocimientos para invertir con inteligencia.</li>
+        </ul>
+        <h2>🌟 ¡El límite es tu imaginación!</h2>
+        <p>Como ingeniero informático, tienes el poder de transformar el mundo y tu vida. ¡Demuestra tu talento, haz que tus padres se sientan orgullosos y alcanza el éxito!</p>
+        <button class="cta" onclick="alert('¡Tú puedes lograrlo! 🚀')">¡Empieza Hoy!</button>
+    </div>
+    <script>
+        // Fireworks animation
+        const canvas = document.querySelector('.fireworks');
+        const ctx = canvas.getContext('2d');
+        let w = window.innerWidth, h = window.innerHeight;
+        canvas.width = w; canvas.height = h;
+
+        function randomColor() {
+            const colors = ['#ffd200', '#f7971e', '#fff', '#ff4e50', '#1e90ff', '#00ffae'];
+            return colors[Math.floor(Math.random() * colors.length)];
+        }
+
+        function Firework() {
+            this.x = Math.random() * w;
+            this.y = h;
+            this.targetY = Math.random() * h * 0.5 + h * 0.1;
+            this.color = randomColor();
+            this.radius = 2 + Math.random() * 2;
+            this.speed = 4 + Math.random() * 2;
+            this.exploded = false;
+            this.particles = [];
+        }
+
+        Firework.prototype.update = function() {
+            if (!this.exploded) {
+                this.y -= this.speed;
+                if (this.y <= this.targetY) {
+                    this.exploded = true;
+                    for (let i = 0; i < 30; i++) {
+                        this.particles.push(new Particle(this.x, this.y, this.color));
+                    }
+                }
+            } else {
+                this.particles.forEach(p => p.update());
+            }
+        };
+
+        Firework.prototype.draw = function() {
+            if (!this.exploded) {
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+                ctx.fillStyle = this.color;
+                ctx.fill();
+            } else {
+                this.particles.forEach(p => p.draw());
+            }
+        };
+
+        function Particle(x, y, color) {
+            this.x = x;
+            this.y = y;
+            this.color = color;
+            this.radius = 1 + Math.random() * 2;
+            this.angle = Math.random() * Math.PI * 2;
+            this.speed = 2 + Math.random() * 3;
+            this.alpha = 1;
+            this.decay = 0.01 + Math.random() * 0.02;
+        }
+
+        Particle.prototype.update = function() {
+            this.x += Math.cos(this.angle) * this.speed;
+            this.y += Math.sin(this.angle) * this.speed;
+            this.alpha -= this.decay;
+        };
+
+        Particle.prototype.draw = function() {
+            if (this.alpha <= 0) return;
+            ctx.save();
+            ctx.globalAlpha = this.alpha;
+            ctx.beginPath();
+            ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+            ctx.fillStyle = this.color;
+            ctx.fill();
+            ctx.restore();
+        };
+
+        let fireworks = [];
+        function loop() {
+            ctx.clearRect(0, 0, w, h);
+            if (Math.random() < 0.05) fireworks.push(new Firework());
+            fireworks.forEach(fw => fw.update());
+            fireworks.forEach(fw => fw.draw());
+            fireworks = fireworks.filter(fw => !fw.exploded || fw.particles.some(p => p.alpha > 0));
+            requestAnimationFrame(loop);
+        }
+        loop();
+
+        window.addEventListener('resize', () => {
+            w = window.innerWidth; h = window.innerHeight;
+            canvas.width = w; canvas.height = h;
+        });
+    </script>
+</body>
+</html>
